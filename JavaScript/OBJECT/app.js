@@ -20,7 +20,7 @@ console.log('******* Objects *********');
 const araclar = new Object();
 araclar.marka = 'BMW';
 araclar.motor = 1.3;
-araclar.model = 2022;
+araclar.model = 2023;
 
 //! Read
 console.log(araclar);
