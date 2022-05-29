@@ -1,31 +1,31 @@
-//* ======================================================
-//*                        EVENTS
-//* ======================================================
+// //* ======================================================
+// //*                        EVENTS
+// //* ======================================================
 
-console.log('****** EVENTS *******');
+// console.log('****** EVENTS *******');
 
-//* EXAMPLE-1 (Mouse Over, Mouse Out )
-//* -------------------------------------------------------
+// //* EXAMPLE-1 (Mouse Over, Mouse Out )
+// //* -------------------------------------------------------
 
-//? METHOD-3 (ONLY JAVASCRIPT)
-//?--------------------------------------------------------
-// document.getElementById('header').onmouseover = function () {
-//   document.getElementById('header').style.color = 'red';
+// //? METHOD-3 (ONLY JAVASCRIPT)
+// //?--------------------------------------------------------
+// // document.getElementById('header').onmouseover = function () {
+// //   document.getElementById('header').style.color = 'red';
+// // };
+
+// const header = document.getElementById('header');
+
+// header.onmouseover = function () {
+//   header.style.color = 'red';
 // };
 
-const header = document.getElementById('header');
+// header.onmouseout = function () {
+//   header.style.color = 'black';
+// };
 
-header.onmouseover = function () {
-  header.style.color = 'red';
-};
-
-header.onmouseout = function () {
-  header.style.color = 'black';
-};
-
-//? METHOD-4 (ONLY JAVASCRIPT - addEventListener())
-//?-------------------------------------------------------
-const myImg = document.querySelector('img');
+// //? METHOD-4 (ONLY JAVASCRIPT - addEventListener())
+// //?-------------------------------------------------------
+// const myImg = document.querySelector('img');
 
 // myImg.addEventListener('mouseover', () => {
 //   myImg.style.transform = 'translateY(5px)';
