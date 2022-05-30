@@ -6,3 +6,87 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+$bgColor :pink;
+$fontColor: white;
+$fontSize: 1.2rem;
+$fontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$navBgColor : #30a7c3;
+$myBorder : 2px solid rgb(175, 29, 29);
+$myLinkSize: 1.1rem;
+$bannerBgColor: #cc6699;
+
+
+body {
+    font-family: $fontFamily;
+    background-color: $bgColor;
+    color: $fontColor;
+    font-size: $fontSize;
+
+}
+
+header {
+    background-color: $navBgColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    img {
+        width: 80px;
+        border: $myBorder;
+        border-radius: 10px;
+        
+    }
+
+    nav {
+
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline-block;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        a {
+            color: $fontColor;
+            text-decoration: none;
+            padding: 0.5rem;
+            
+        }
+       
+    }
+
+}
+
+main{
+    .banner{
+        background-color: $bannerBgColor;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        line-height: 2.0rem;
+        align-items: center;
+    }
+    button{
+        padding: 0.5rem;
+        background-color:$navBgColor ;
+        border: none;
+        border-radius: 10px;
+        font-size: $myLinkSize;
+        width: 9rem;
+        margin: 1rem;
+        &:hover{
+            background-color: bisque;
+            cursor: pointer;
+        }
+    }
+    img{
+        width: 30%;
+        min-width: 200px;
+        max-width: 400px;
+    }
+}
