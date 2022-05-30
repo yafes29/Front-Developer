@@ -33,3 +33,14 @@ ekleBtn.onclick = function () {
   }
   
 };
+const javascriptKontrol = () => {
+    document.querySelectorAll('ul li').forEach((dil) => {
+      const kucukHarf = dil.textContent.toLowerCase();
+      if (kucukHarf === 'javascript') {
+        // dil.className = 'red';
+        //?Alternatif yöntem
+        dil.setAttribute('class', 'red');
+      }
+    });
+  };
+  
