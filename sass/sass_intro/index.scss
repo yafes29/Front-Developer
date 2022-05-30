@@ -92,7 +92,7 @@ main{
 
     @mixin myBox ($bgColor, $fontColor) {
 
-
+    color: $fontColor;
         background-color: $bgColor;
         width: 25%;
         height: 15rem;
@@ -103,6 +103,7 @@ main{
 
     .cards{
         display: flex;
+        padding: 1rem;
         .card1{
             @include myBox(brown,white )
         }
@@ -110,10 +111,30 @@ main{
             @include myBox(rgb(73, 50, 114),white )
         }
         .card3{
-            @include myBox(rgb(48, 134, 58),white )
+            @include myBox(rgb(48, 134, 58),black )
         }
         .card4{
             @include myBox(rgb(47, 24, 30),white )
+        }
+    }
+    
+
+    .articles{
+        padding: 1rem;
+        display: flex;
+        .article1{
+            width: 50%;
+            background-color: grey;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 10rem;
+            margin: 1rem;
+            padding: 0.5rem;
+        }
+        .article2{
+            @extend .article1;
+            background-color: hotpink;
+            
         }
     }
 }
