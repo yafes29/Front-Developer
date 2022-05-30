@@ -66,5 +66,40 @@ main img {
   min-width: 200px;
   max-width: 400px;
 }
+main .cards {
+  display: flex;
+}
+main .cards .card1 {
+  background-color: brown;
+  width: 25%;
+  height: 15rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+main .cards .card2 {
+  background-color: rgb(73, 50, 114);
+  width: 25%;
+  height: 15rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+main .cards .card3 {
+  background-color: rgb(48, 134, 58);
+  width: 25%;
+  height: 15rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+main .cards .card4 {
+  background-color: rgb(47, 24, 30);
+  width: 25%;
+  height: 15rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
 
 /*# sourceMappingURL=index.css.map */

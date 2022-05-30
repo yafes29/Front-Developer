@@ -89,4 +89,32 @@ main{
         min-width: 200px;
         max-width: 400px;
     }
+
+    @mixin myBox ($bgColor, $fontColor) {
+
+
+        background-color: $bgColor;
+        width: 25%;
+        height: 15rem;
+        border: $myBorder;
+        border-radius: 5px;
+        margin: 0.5rem;
+    }
+
+    .cards{
+        display: flex;
+        .card1{
+            @include myBox(brown,white )
+        }
+        .card2{
+            @include myBox(rgb(73, 50, 114),white )
+        }
+        .card3{
+            @include myBox(rgb(48, 134, 58),white )
+        }
+        .card4{
+            @include myBox(rgb(47, 24, 30),white )
+        }
+    }
 }
+
