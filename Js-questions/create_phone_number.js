@@ -12,7 +12,7 @@ function createPhoneNumber(numbers){
 
 
 
-  ```Solution-2```
+  ```Solution-2```  ///
 
   let phonenumber=prompt("Enter a number")
   function createPhoneNumber(numbers){
