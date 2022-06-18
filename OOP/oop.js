@@ -32,3 +32,14 @@ const book1 = {
   //? Object literals yontemi ile fazla sayida yeni objeler olusturmak oldukca zahmetlidir.
   //? Ayrica programcilik yaklasimi acisindan da cok tekrar icerdigi icin uygun degildir (DRY - Dont Repeat Yourself)
   //? Cozum: Object Oriented Programming (ES5 and ES6)
+
+
+  //* ======================================================
+//*             OOP - Object Constructor (ES5)
+//* ======================================================
+
+//* Javascript, prototype-temelli bir dildir.
+//* Butun JavaScript nesneleri (objects) ozellikleri (properties)
+//* ve metotlari bir prototipten miras olarak almaktadir.
+//* Object prototipi, prototip miras zincirinin en tepesinde yer almaktadir.
+//* Ornegin Date and Array nesneleri Object.prototype'dan miras almaktadir.
