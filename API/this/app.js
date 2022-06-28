@@ -78,3 +78,9 @@ func2();*/
   
 //   // A button object calls the function:
 //   document.getElementById("btn").addEventListener("click", hello);
+
+
+const a = 10;
+const b = 20;
+
+console.log(a+b);
