@@ -80,7 +80,14 @@ func2();*/
 //   document.getElementById("btn").addEventListener("click", hello);
 
 
-const a = 10;
-const b = 20;
+// const a = 10;
+// const b = 20;
 
-console.log(a+b);
+// console.log(a+b);
+
+// a = 37;
+// console.log(window.a); // 37
+
+// this.b = "MDN";
+// console.log(window.b)  // "MDN"
+// console.log(b) 
