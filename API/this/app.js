@@ -91,3 +91,16 @@ func2();*/
 // this.b = "MDN";
 // console.log(window.b)  // "MDN"
 // console.log(b) 
+
+
+// const object = {
+//     a: 5,
+//     b: 7
+//    }
+//    const thisFunction = function(c, d) {
+//     return this.a + this.b + c + d;
+//    }
+//    thisFunction.call(object, 12, 4);
+//    //will return 28
+//    thisFunction.apply(object, [3, 6]);
+//    //will return 21
