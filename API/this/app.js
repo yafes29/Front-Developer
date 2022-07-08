@@ -1,4 +1,6 @@
 /*// THİS
+console.log(this)
+
 
  console.log(this);
 console.log(this.location)
