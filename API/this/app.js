@@ -8,7 +8,8 @@ console.log(this.location)
 
  console.log(this === window)
 
- Function Declaration
+ //Function Declaration
+
 
 function func1(){
     this.name = "ALP"
