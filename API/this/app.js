@@ -13,6 +13,7 @@ console.log(this.location)
 
 function func1(){
     this.name = "ALP"
+    this.name ="Mustafa"
     console.log(this)
 }
 
